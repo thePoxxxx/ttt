@@ -27,6 +27,10 @@
       </a-entity>
 
 
+      <!--===================================================================
+      ===============         D E T E C T - D E V I C E       ===============
+      =====================================================================-->
+
       <a-assets>
         <script type="text/javascript">
           //Check if user is on mobile, save platform type string to variable
@@ -40,6 +44,18 @@
           document.write('<a-asset-item id="A_mtl" src="assets/3D/' + platform + '/models/Spawn.mtl"></a-asset-item>');
         </script>
       </a-assets>
+
+
+      <!--==================================================================
+      ================== A S S E T - P L A C E M E N T =====================
+      ====================================================================-->
+
+      <a-obj-model
+              src='#A'
+              mtl='#A_m'
+              position="0 0.01 0"
+              n-mesh-collider='type: environment; convex: false'>
+      </a-obj-model>
 
 
     </a-scene>
