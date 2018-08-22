@@ -41,6 +41,7 @@
           document.write('<a-asset-item id="B_3D" src="assets/3D/' + platform + '/models/Railing.obj"></a-asset-item>');
           document.write('<a-asset-item id="C_3D" src="assets/3D/' + platform + '/models/Hallway.obj"></a-asset-item>');
           document.write('<a-asset-item id="D_3D" src="assets/3D/' + platform + '/models/floor.obj"></a-asset-item>');
+          document.write('<a-asset-item id="E_3D" src="assets/3D/' + platform + '/models/Stairs.obj"></a-asset-item>');
 
 
           //<!-- L O A D - T E X T U R E S-->
@@ -48,6 +49,7 @@
           document.write('<a-asset-item id="B_mtl" src="assets/3D/' + platform + '/models/Railing.mtl"></a-asset-item>');
           document.write('<a-asset-item id="C_mtl" src="assets/3D/' + platform + '/models/Hallway.mtl"></a-asset-item>');
           document.write('<a-asset-item id="D_mtl" src="assets/3D/' + platform + '/models/floor.mtl"></a-asset-item>');
+          document.write('<a-asset-item id="E_mtl" src="assets/3D/' + platform + '/models/Stairs.mtl"></a-asset-item>');
         </script>
       </a-assets>
 
@@ -73,7 +75,7 @@
               n-mesh-collider='type: environment; convex: false'>
       </a-obj-model>
 
-      <!-- R A I L I N G -->
+      <!-- H A L L W A Y -->
       <a-obj-model
               src='#C_3D'
               mtl='#C_mtl'
@@ -89,6 +91,13 @@
               n-mesh-collider='type: environment; convex: false'>
       </a-obj-model>
 
+      <!-- S T A R I S -->
+      <a-obj-model
+              src='#E_3D'
+              mtl='#E_mtl'
+              position="0 0.01 0"
+              n-mesh-collider='type: environment; convex: false'>
+      </a-obj-model>
 
     </a-scene>
   </body>
