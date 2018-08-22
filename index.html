@@ -39,10 +39,12 @@
 
           //<!-- L O A D - 3 D - M O D E L S-->
           document.write('<a-asset-item id="A_3D" src="assets/3D/' + platform + '/models/Spawn.obj"></a-asset-item>');
+          document.write('<a-asset-item id="B_3D" src="assets/3D/' + platform + '/models/Spawn.obj"></a-asset-item>');
 
 
           //<!-- L O A D - T E X T U R E S-->
           document.write('<a-asset-item id="A_mtl" src="assets/3D/' + platform + '/models/Spawn.mtl"></a-asset-item>');
+          document.write('<a-asset-item id="B_mtl" src="assets/3D/' + platform + '/models/Spawn.mtl"></a-asset-item>');
         </script>
       </a-assets>
 
@@ -57,6 +59,14 @@
               position="0 0.01 0"
               n-mesh-collider='type: environment; convex: false'>
       </a-obj-model>
+
+      <a-obj-model
+              src='#B_3D'
+              mtl='#B_mtl'
+              position="0 0.01 0"
+              n-mesh-collider='type: environment; convex: false'>
+      </a-obj-model>
+
 
 
     </a-scene>
