@@ -1,7 +1,7 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 22.08.2018 19:26:27
+# File Created: 08.08.2018 23:25:03
 
-newmtl Material__1198
+newmtl Material__294
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -12,10 +12,10 @@ newmtl Material__1198
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka door_LP.jpg
-	map_Kd door_LP.jpg
+	map_Ka Spawn_Floor_5_3.jpg
+	map_Kd Spawn_Floor_5_3.jpg
 
-newmtl Material__1202
+newmtl Door
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -26,10 +26,10 @@ newmtl Material__1202
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka Roof_Tiles_Corner_LP.jpg
-	map_Kd Roof_Tiles_Corner_LP.jpg
+	map_Ka door.jpg
+	map_Kd door.jpg
 
-newmtl Material__1151
+newmtl Treppenaufgang_textur
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -40,10 +40,10 @@ newmtl Material__1151
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka Spawn_Floor_LowPoly.jpg
-	map_Kd Spawn_Floor_LowPoly.jpg
+	map_Ka Dark.jpg
+	map_Kd Dark.jpg
 
-newmtl Material__1197
+newmtl Corridor
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -54,10 +54,10 @@ newmtl Material__1197
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka corridor_LP.jpg
-	map_Kd corridor_LP.jpg
+	map_Ka corridor.jpg
+	map_Kd corridor.jpg
 
-newmtl Material__1204
+newmtl Material__317
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -68,5 +68,5 @@ newmtl Material__1204
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka Dark_LP.jpg
-	map_Kd Dark_LP.jpg
+	map_Ka Roof_Tiles_Corner.jpg
+	map_Kd Roof_Tiles_Corner.jpg
