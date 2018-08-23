@@ -42,6 +42,7 @@
           document.write('<a-asset-item id="C_3D" src="assets/3D/' + platform + '/models/Hallway.obj"></a-asset-item>');
           document.write('<a-asset-item id="D_3D" src="assets/3D/' + platform + '/models/floor.obj"></a-asset-item>');
           document.write('<a-asset-item id="E_3D" src="assets/3D/' + platform + '/models/Stairs.obj"></a-asset-item>');
+          document.write('<a-asset-item id="F_3D" src="assets/3D/' + platform + '/models/Temple.obj"></a-asset-item>');
 
 
           //<!-- L O A D - T E X T U R E S-->
@@ -50,6 +51,7 @@
           document.write('<a-asset-item id="C_mtl" src="assets/3D/' + platform + '/models/Hallway.mtl"></a-asset-item>');
           document.write('<a-asset-item id="D_mtl" src="assets/3D/' + platform + '/models/floor.mtl"></a-asset-item>');
           document.write('<a-asset-item id="E_mtl" src="assets/3D/' + platform + '/models/Stairs.mtl"></a-asset-item>');
+          document.write('<a-asset-item id="F_mtl" src="assets/3D/' + platform + '/models/Temple.mtl"></a-asset-item>');
         </script>
       </a-assets>
 
@@ -95,6 +97,14 @@
       <a-obj-model
               src='#E_3D'
               mtl='#E_mtl'
+              position="0 0.01 0"
+              n-mesh-collider='type: environment; convex: false'>
+      </a-obj-model>
+
+      <!-- T E M P L E -->
+      <a-obj-model
+              src='#F_3D'
+              mtl='#F_mtl'
               position="0 0.01 0"
               n-mesh-collider='type: environment; convex: false'>
       </a-obj-model>

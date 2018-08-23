@@ -1,7 +1,7 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 22.08.2018 20:10:08
+# File Created: 23.08.2018 20:19:29
 
-newmtl Material__1198
+newmtl Material__1199
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -12,10 +12,10 @@ newmtl Material__1198
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka door_LP.jpg
-	map_Kd door_LP.jpg
+	map_Ka Caps_LP.jpg
+	map_Kd Caps_LP.jpg
 
-newmtl Material__1202
+newmtl Material__1227
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -26,10 +26,10 @@ newmtl Material__1202
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka Roof_Tiles_Corner_LP.jpg
-	map_Kd Roof_Tiles_Corner_LP.jpg
+	map_Ka bulb1.jpg
+	map_Kd bulb1.jpg
 
-newmtl Material__1151
+newmtl Material__1205
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -40,8 +40,8 @@ newmtl Material__1151
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka Spawn_Floor_LowPoly.jpg
-	map_Kd Spawn_Floor_LowPoly.jpg
+	map_Ka bulb1.jpg
+	map_Kd bulb1.jpg
 
 newmtl Material__1197
 	Ns 10.0000
@@ -57,7 +57,7 @@ newmtl Material__1197
 	map_Ka corridor_LP.jpg
 	map_Kd corridor_LP.jpg
 
-newmtl Material__1204
+newmtl Material__1200
 	Ns 10.0000
 	Ni 1.5000
 	d 1.0000
@@ -68,5 +68,19 @@ newmtl Material__1204
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka Dark_LP.jpg
-	map_Kd Dark_LP.jpg
+	map_Ka Collum_Hallway_LP.jpg
+	map_Kd Collum_Hallway_LP.jpg
+
+newmtl Material__1201
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Roof Tiles.jpg
+	map_Kd Roof Tiles.jpg
